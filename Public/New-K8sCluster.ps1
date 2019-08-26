@@ -26,7 +26,7 @@ function New-K8sCluster
     [Parameter()][ValidateNotNullorEmpty()][String]$workerDataDiskSize = 200,
     [Parameter()][ValidateNotNullorEmpty()][String]$ubuntuVersion = 'Canonical:UbuntuServer:18.04-LTS:latest',
     [Parameter()][ValidateNotNullorEmpty()][String]$adminUsername = 'k8sadm',
-    [Parameter()][ValidateNotNullorEmpty()][String]$adminSSHPublicKeyPath = 'C:\Users\eegseth\.ssh\id_rsa.pub',
+    [Parameter()][ValidateNotNullorEmpty()][String]$adminSSHPublicKeyPath = 'C:\Users\me\.ssh\id_rsa.pub',
     [Parameter()][ValidateNotNullorEmpty()][String]$timezone = 'Europe/Oslo',
 
     #Client parameters
