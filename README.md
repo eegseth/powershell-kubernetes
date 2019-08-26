@@ -11,7 +11,7 @@ Based on https://github.com/kelseyhightower/kubernetes-the-hard-way
 ```
 import-module .\k8s.psm1
 ```
-2. Run command (have a look inside for parameters needed):
+2. Run command (have a look inside \Public\New-K8sCluster.ps1 for parameters needed):
 ```
 New-K8sCluster
 ```
